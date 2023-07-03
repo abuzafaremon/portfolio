@@ -48,14 +48,26 @@
   color: var(--main-color);
 }
 
-.about .row-2 {
+.about .row-2 .skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
-  align-items: center;
+  gap: 10px;
 }
 
-.about .row-2 .skills {
+.about .row-2 .skills div {
+  background-color: #222;
+  border: 5px solid white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+  padding: 5px 15px;
+  text-transform: capitalize;
+  border-radius: 20px;
+  color: var(--main-color);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/* .about .row-2 .skills {
   flex: 1 1 40rem;
 }
 
@@ -127,4 +139,4 @@
   color: #666;
   font-size: 1.7rem;
   padding-top: .5rem;
-}
+} */

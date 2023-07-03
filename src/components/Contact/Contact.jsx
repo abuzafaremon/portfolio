@@ -11,15 +11,17 @@ const Contact = () => {
         <div className="icons">
           <i className="fas fa-envelope"></i>
           <h3>my email</h3>
-          <p>zafaremon@gmail.com</p>
-          <p>abuzaforemon@gmail.com</p>
+          <a href="mailto:abuzaforemon@gmail.com">abuzaforemon@gmail.com</a>
+          <br />
+          <a href="mailto:zafaremon@gmail.com">zafaremon@gmail.com</a>
         </div>
 
         <div className="icons">
           <i className="fas fa-phone"></i>
           <h3>my number</h3>
-          <p>+8801707894381</p>
-          <p>+8801568829599</p>
+          <a href="tel:+8801707894381">+8801707894381</a>
+          <br />
+          <a href="tel:+8801568829599">+8801568829599</a>
         </div>
 
         <div className="icons">

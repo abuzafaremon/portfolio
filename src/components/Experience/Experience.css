@@ -1,3 +1,7 @@
+section#experience {
+  height: auto !important;
+}
+
 .experience .box-container {
   display: flex;
   flex-wrap: wrap;

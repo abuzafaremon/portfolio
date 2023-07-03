@@ -19,7 +19,7 @@
 .portfolio .box-container .box img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: top;
   border-radius: .5rem;
   position: relative;
@@ -66,39 +66,44 @@
 
 .modal {
   width: calc(100% - 40rem);
-  height: 95%;
-  padding: 3% 0;
+  height: 98%;
+  padding: 2% 0;
   position: fixed;
-  top: 2.5%;
+  top: 1%;
   right: 4%;
   z-index: 1000;
   background: #222;
   border-radius: 14px;
 }
 
-@media (max-width:991px) {
-  .modal {
-    width: 92%;
-    height: 90%;
-    top: 9%;
-  }
-}
-
 .modal .close {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 5px;
+  top: 5px;
   background: #fff;
   border-radius: 100%;
-  width: 30px;
-  height: 30px;
-  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
   color: red;
   cursor: pointer;
 }
 
+@media (max-width:991px) {
+  .modal {
+    width: 92%;
+    height: 100%;
+    z-index: 9999999;
+  }
+
+  .modal .close {
+    right: 2px;
+    top: 2px;
+  }
+}
+
 .modal-body {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   background: #fff;
   height: 100%;
@@ -108,13 +113,40 @@
 
 .modal-body .img-container {
   width: 100%;
-  height: 60%;
-  object-fit: cover;
+  height: 50%;
 }
 
 .modal-body img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top;
+  object-position: left top;
+}
+
+@media (max-width:991px) {
+  .modal-body img {
+    object-fit: contain;
+  }
+}
+
+.modal-body .details {
+  padding: 5px;
+}
+
+.modal-body .details .description ul {
+  font-size: 12px;
+}
+
+
+.modal-body .details2 div {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.details .links a {
+  font-size: 1.5rem;
+  color: #222;
+  margin-right: 10px;
 }

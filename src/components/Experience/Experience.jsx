@@ -61,11 +61,10 @@ const Experience = () => {
           <div className="content">
             <span> Oct 2022 - Jan 2023 </span>
             <h3>Intern - Frontend Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel
-              quasi consectetur expedita ipsam similique maiores ipsa? Error,
-              debitis ullam.
-            </p>
+            <div>
+              <p>Kodeeo Limited</p>
+              <p>Uttara Dhaka</p>
+            </div>
           </div>
         </div>
 
@@ -73,11 +72,10 @@ const Experience = () => {
           <div className="content">
             <span> Feb 2023 - May 2023 </span>
             <h3>Front End Developer</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel
-              quasi consectetur expedita ipsam similique maiores ipsa? Error,
-              debitis ullam.
-            </p>
+            <div>
+              <p>Lets Make</p>
+              <p>Remote</p>
+            </div>
           </div>
         </div>
       </div>

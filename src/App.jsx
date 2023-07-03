@@ -26,6 +26,7 @@ function App() {
     cursor2.current.style.top = e.pageY + "px";
     cursor2.current.style.left = e.pageX + "px";
   };
+
   document.querySelectorAll("a").forEach((links) => {
     links.onmouseenter = () => {
       cursor1.current.classList.add("active");

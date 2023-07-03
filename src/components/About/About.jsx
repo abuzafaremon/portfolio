@@ -69,7 +69,7 @@ const About = () => {
       </h1>
 
       <div className="row-2">
-        <div className="skills">
+        {/* <div className="skills">
           <div className="progress">
             <h3>
               web design <span> 95% </span>
@@ -102,9 +102,26 @@ const About = () => {
               <span></span>
             </div>
           </div>
+        </div> */}
+        <div className="skills">
+          <div>HTML</div>
+          <div>CSS</div>
+          <div>SCSS</div>
+          <div>Javascript</div>
+          <div>Bootstrap</div>
+          <div>Tailwind</div>
+          <div>Daisy UI</div>
+          <div>React Js</div>
+          <div>Next Js</div>
+          <div>Firebase</div>
+          <div>Redux/Zustand</div>
+          <div>Typescript</div>
+          <div>Node Js</div>
+          <div>Express Js</div>
+          <div>MongoDB</div>
         </div>
 
-        <div className="box-container">
+        {/* <div className="box-container">
           <div className="box">
             <h3> &gt; 1+ </h3>
             <p>years of experience</p>
@@ -121,7 +138,7 @@ const About = () => {
             <h3> &gt; 2 </h3>
             <p>awards won</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -31,9 +31,14 @@
   padding-top: 1rem;
 }
 
+.contact .icons-container .icons a,
 .contact .icons-container .icons p {
   color: #666;
   font-size: 1.7rem;
+}
+
+.contact .icons-container .icons a:hover {
+  color: var(--main-color);
 }
 
 .contact .row {
