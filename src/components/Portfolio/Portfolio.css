@@ -133,6 +133,12 @@
   padding: 5px;
 }
 
+.modal-body .details h2 {
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+
 .modal-body .details .description ul {
   font-size: 12px;
 }
@@ -149,4 +155,14 @@
   font-size: 1.5rem;
   color: #222;
   margin-right: 10px;
+  padding: 0 5px;
+  border-radius: .5rem;
+  background: #eee;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.details .links a:hover {
+  color: #fff;
+  background: var(--main-color);
 }

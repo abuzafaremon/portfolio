@@ -7,6 +7,13 @@
 
 .home .image {
   flex: 1 1 40rem;
+  display: none;
+}
+
+@media (min-width:802px) {
+  .home .image {
+    display: block;
+  }
 }
 
 .home .image img {

@@ -33,6 +33,10 @@
   padding: .5rem 0;
 }
 
+.about .row-1 .content p a {
+  color: #666;
+}
+
 .about .row-1 .content .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -55,13 +59,13 @@
 }
 
 .about .row-2 .skills div {
-  background-color: #222;
+  background-color: var(--main-color);
   border: 5px solid white;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
   padding: 5px 15px;
   text-transform: capitalize;
   border-radius: 20px;
-  color: var(--main-color);
+  color: white;
   font-size: 14px;
   font-weight: 600;
 }

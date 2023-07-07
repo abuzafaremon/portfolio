@@ -3,13 +3,6 @@ import "./Service.css";
 const Service = () => {
   const services = [
     {
-      id: 1,
-      icon: <i className="fas fa-paint-brush"></i>,
-      name: "Web Design",
-      description:
-        "Web design is the process of planning, conceptualizing, and arranging content online including web/mobile apps and UI design.",
-    },
-    {
       id: 2,
       icon: <i className="fas fa-mobile"></i>,
       name: "Responsive Design",
@@ -17,25 +10,11 @@ const Service = () => {
         "Responsive web design or responsive design is an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction.",
     },
     {
-      id: 3,
-      icon: <i className="fas fa-code"></i>,
-      name: "Coding",
-      description:
-        "Definition of coding is the process of transforming ideas, solutions, and instructions into the language that the computer can understand.",
-    },
-    {
       id: 4,
       icon: <i className="fas fa-code"></i>,
       name: "Front-end Development",
       description:
         "Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.",
-    },
-    {
-      id: 5,
-      icon: <i className="fas fa-code"></i>,
-      name: "Web Development",
-      description:
-        "Web development includes hand coding web pages in a text editor, building a website in a program like Dreamweaver.",
     },
     {
       id: 6,

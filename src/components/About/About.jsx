@@ -15,39 +15,34 @@ const About = () => {
         <div className="content">
           <h3> my name is Zafar Emon</h3>
           <p>
-            A motivated junior front-end developer with curiosity of learning
-            and exploring new languages and development tools, besides looking
-            for a position in a growth-oriented company where I can use my
-            skills to the advantage of the company while developing my own
-            skills.
+            A motivated front-end developer with curiosity of learning and
+            exploring new languages and development tools, besides looking for a
+            position in a growth-oriented company where I can use my skills to
+            the advantage of the company while developing my own skills.
           </p>
           <div className="box-container">
             <div className="box">
               <p>
-                <span> age : </span> 25
+                <span> country : </span> Bangladesh
               </p>
               <p>
-                <span> gender : </span> male
+                <span> Language : </span> Bengali, English, Hindi
               </p>
               <p>
-                <span> language : </span> bengali, english, hindi
-              </p>
-              <p>
-                <span> work : </span> front-end developer
+                <span> phone : </span>
+                <a href="tel:+8801707894381">01707894381</a>
               </p>
             </div>
             <div className="box">
               <p>
-                <span> freelance : </span> available
+                <span> Work : </span> Front-End Developer
               </p>
               <p>
-                <span> phone : </span> 01707894381
+                <span> Freelance : </span> Available
               </p>
               <p>
-                <span> email : </span> zafaremon@gmail.com
-              </p>
-              <p>
-                <span> country : </span> Bangladesh
+                <span> Email : </span>
+                <a href="mailto:zafaremon@gmail.com">zafaremon@gmail.com</a>
               </p>
             </div>
           </div>

@@ -155,7 +155,7 @@ const Portfolio = () => {
       <div className="box-container">
         {portfolios
           .reverse()
-          .slice(0, 6)
+          .slice(0, 10)
           .map(({ id, thumb, title, liveLink }) => (
             <div key={id} className="box">
               <img src={thumb} alt={title} />
