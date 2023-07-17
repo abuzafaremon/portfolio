@@ -61,9 +61,16 @@ const Experience = () => {
           <div className="content">
             <span> Oct 2022 - Jan 2023 </span>
             <h3>Intern - Frontend Development</h3>
-            <div>
-              <p>Kodeeo Limited</p>
-              <p>Uttara Dhaka</p>
+            <div style={{ display: "flex", gap: "10px" }}>
+              <div>
+                <p>Company: Kodeeo Limited</p>
+                <p>Location: Uttara Dhaka</p>
+              </div>
+              <div>
+                <h2>Task I have done</h2>
+                <p>Landing Page Design</p>
+                <p>Learn React Js</p>
+              </div>
             </div>
           </div>
         </div>
@@ -72,9 +79,18 @@ const Experience = () => {
           <div className="content">
             <span> Feb 2023 - May 2023 </span>
             <h3>Front End Developer</h3>
-            <div>
-              <p>Lets Make</p>
-              <p>Remote</p>
+            <div style={{ display: "flex", gap: "10px" }}>
+              <div>
+                <p>Company: Lets Make</p>
+                <p>Location: Remote</p>
+              </div>
+              <div>
+                <h2>Task I have done</h2>
+                <p>Landing Page Design</p>
+                <p>Pages Design</p>
+                <p>API Implementation</p>
+                <p>Reporting at Click Up</p>
+              </div>
             </div>
           </div>
         </div>

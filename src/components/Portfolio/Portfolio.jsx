@@ -69,6 +69,16 @@ const Portfolio = () => {
       thumb: "/airbnb.PNG",
     },
     {
+      id: 11,
+      title: "Flex-IT",
+      description: ["This is a landing page", "All Device Responsive"],
+      technology: ["Next Js", "Javascript", "Tailwind"],
+      liveLink: "https://flex-it-abuzafaremon.vercel.app/",
+      githubClient:
+        "https://github.com/abuzafaremon/flexIt-landingPage-letsmake",
+      thumb: "/flex-it.PNG",
+    },
+    {
       id: 8,
       title: "Nike",
       description: [
