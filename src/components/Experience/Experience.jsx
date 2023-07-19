@@ -2,7 +2,7 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <section className="experience" id="experience">
+    <div className="experience" id="experience">
       <h1 className="heading">
         <span> my </span> experience
       </h1>
@@ -95,7 +95,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

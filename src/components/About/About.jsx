@@ -9,7 +9,7 @@ const About = () => {
 
       <div className="row-1">
         <div className="image">
-          <img src="/about-img.png" alt="Emon" />
+          <img src="/assets/images/about-img.png" alt="Emon" />
         </div>
 
         <div className="content">

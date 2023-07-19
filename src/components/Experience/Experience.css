@@ -1,5 +1,5 @@
-section#experience {
-  height: auto !important;
+#experience {
+  padding: 1rem 5%;
 }
 
 .experience .box-container {

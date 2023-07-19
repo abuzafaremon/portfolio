@@ -12,7 +12,7 @@ const Portfolio = () => {
       technology: ["HTML", "CSS"],
       liveLink: "https://leaderboard-emon.netlify.app",
       githubClient: "https://github.com/abuzafaremon/leader-board-css3",
-      thumb: "/leaderboard.PNG",
+      thumb: "/assets/images/portfolio/leaderboard.PNG",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const Portfolio = () => {
       technology: ["HTML", "CSS", "Bootstrap"],
       liveLink: "https://panda-commerce-emon.netlify.app",
       githubClient: "https://github.com/abuzafaremon/panda-commerce",
-      thumb: "/panda-commerce.PNG",
+      thumb: "/assets/images/portfolio/panda-commerce.PNG",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ const Portfolio = () => {
       technology: ["HTML", "CSS", "Bootstrap"],
       liveLink: "https://palki-convention-center-emon.netlify.app",
       githubClient: "https://github.com/abuzafaremon/convention-center",
-      thumb: "/palki.PNG",
+      thumb: "/assets/images/portfolio/palki.PNG",
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ const Portfolio = () => {
       technology: ["HTML", "CSS", "Bootstrap"],
       liveLink: "https://glozzom-emon.netlify.app",
       githubClient: "https://github.com/abuzafaremon/",
-      thumb: "/glozzome.PNG",
+      thumb: "/assets/images/portfolio/glozzome.PNG",
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ const Portfolio = () => {
       technology: ["React Js", "Javascript", "SCSS"],
       liveLink: "https://netbook-emon.netlify.app",
       githubClient: "https://github.com/abuzafaremon/",
-      thumb: "/netbook.PNG",
+      thumb: "/assets/images/portfolio/netbook.PNG",
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ const Portfolio = () => {
       technology: ["React Js", "Javascript", "Tailwind"],
       liveLink: "https://bangla-puzzle-task1-emon.netlify.app",
       githubClient: "https://github.com/abuzafaremon/bangla-puzzle-task",
-      thumb: "/bangla-puzzle.PNG",
+      thumb: "/assets/images/portfolio/bangla-puzzle.PNG",
     },
     {
       id: 7,
@@ -66,7 +66,7 @@ const Portfolio = () => {
       technology: ["React Js", "Javascript", "Tailwind"],
       liveLink: "https://bangla-puzzle-task2-emon.netlify.app",
       githubClient: "https://github.com/abuzafaremon/bangla-puzzle-task2",
-      thumb: "/airbnb.PNG",
+      thumb: "/assets/images/portfolio/airbnb.PNG",
     },
     {
       id: 11,
@@ -76,7 +76,16 @@ const Portfolio = () => {
       liveLink: "https://flex-it-abuzafaremon.vercel.app/",
       githubClient:
         "https://github.com/abuzafaremon/flexIt-landingPage-letsmake",
-      thumb: "/flex-it.PNG",
+      thumb: "/assets/images/portfolio/flex-it.PNG",
+    },
+    {
+      id: 12,
+      title: "O-Digital",
+      description: ["This is a landing page", "All Device Responsive"],
+      technology: ["Next Js", "Javascript", "Tailwind"],
+      liveLink: "https://odigital-abuzafaremon.vercel.app/",
+      githubClient: "https://github.com/abuzafaremon/innvaVerse-ODigital",
+      thumb: "/assets/images/portfolio/o-digital.PNG",
     },
     {
       id: 8,
@@ -99,7 +108,7 @@ const Portfolio = () => {
       liveLink: "https://nike-warehouse.web.app",
       githubClient: "https://github.com/abuzafaremon/nike-warehouse-client",
       githubServer: "https://github.com/abuzafaremon/nike-warehouse-server",
-      thumb: "/nike-warehouse.PNG",
+      thumb: "/assets/images/portfolio/nike-warehouse.PNG",
     },
     {
       id: 9,
@@ -122,7 +131,7 @@ const Portfolio = () => {
       liveLink: "https://doctors-portal-39a0f.web.app/",
       githubClient: "https://github.com/abuzafaremon/doctors-portal-client",
       githubServer: "https://github.com/abuzafaremon/doctors-portal-server",
-      thumb: "/doctors-portal.PNG",
+      thumb: "/assets/images/portfolio/doctors-portal.PNG",
     },
     {
       id: 10,
@@ -142,7 +151,7 @@ const Portfolio = () => {
       ],
       liveLink: "https://blog-letsmake.web.app/",
       githubClient: "https://github.com/abuzafaremon/blog-letsmake",
-      thumb: "/blogx.PNG",
+      thumb: "/assets/images/portfolio/blogx.PNG",
     },
   ];
   const handleModalShow = (id) => {
