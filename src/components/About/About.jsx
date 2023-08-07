@@ -8,7 +8,7 @@ const About = () => {
     { name: "Javascript", img: "/assets/images/Skillicons/js-file.png" },
     { name: "Bootstrap", img: "/assets/images/Skillicons/bootstrap.png" },
     { name: "Tailwind", img: "/assets/images/Skillicons/tailwaind.png" },
-    { name: "Material UI", img: "/assets/images/Skillicons/metarialui.png" },
+    { name: "GitHub", img: "/assets/images/Skillicons/github.png" },
     { name: "React Js", img: "/assets/images/Skillicons/react.png" },
     { name: "Next Js", img: "/assets/images/Skillicons/nextjs.png" },
     { name: "Firebase", img: "/assets/images/Skillicons/firebase.png" },
