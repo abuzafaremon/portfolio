@@ -153,6 +153,27 @@ const Portfolio = () => {
       githubClient: "https://github.com/abuzafaremon/blog-letsmake",
       thumb: "/assets/images/portfolio/blogx.PNG",
     },
+    {
+      id: 13,
+      title: "Bistro Boss",
+      description: [
+        "This is a Restaurant website",
+        "Fully responsive for all devices",
+        "Other features is under development",
+      ],
+      technology: [
+        "React Js",
+        "Javascript",
+        "Tailwind",
+        "DaisyUI",
+        "Firebase",
+        "Express Js",
+        "MongoDB",
+      ],
+      liveLink: "https://bistro-boss-aze.vercel.app/",
+      githubClient: "https://github.com/abuzafaremon/bistro-boss-client",
+      thumb: "/assets/images/portfolio/bistro-boss-thumb.PNG",
+    },
   ];
   const handleModalShow = (id) => {
     setIsModalShow(true);

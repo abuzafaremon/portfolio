@@ -2,7 +2,14 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <section className="home" id="home">
+    <section
+      className="home"
+      id="home"
+      style={{
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="content">
         <span className="hi"> hi there... </span>
         <h3>

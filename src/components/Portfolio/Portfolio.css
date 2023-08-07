@@ -130,7 +130,7 @@
 }
 
 .modal-body .details {
-  padding: 5px;
+  padding: 10px;
 }
 
 .modal-body .details h2 {
@@ -141,6 +141,7 @@
 
 .modal-body .details .description ul {
   font-size: 12px;
+  list-style: none;
 }
 
 

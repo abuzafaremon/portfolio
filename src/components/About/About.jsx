@@ -1,6 +1,24 @@
 import "./About.css";
 
 const About = () => {
+  const skills = [
+    { name: "HTML", img: "/assets/images/Skillicons/html.png" },
+    { name: "CSS", img: "/assets/images/Skillicons/css.png" },
+    { name: "SCSS", img: "/assets/images/Skillicons/sass.png" },
+    { name: "Javascript", img: "/assets/images/Skillicons/js-file.png" },
+    { name: "Bootstrap", img: "/assets/images/Skillicons/bootstrap.png" },
+    { name: "Tailwind", img: "/assets/images/Skillicons/tailwaind.png" },
+    { name: "Material UI", img: "/assets/images/Skillicons/metarialui.png" },
+    { name: "React Js", img: "/assets/images/Skillicons/react.png" },
+    { name: "Next Js", img: "/assets/images/Skillicons/nextjs.png" },
+    { name: "Firebase", img: "/assets/images/Skillicons/firebase.png" },
+    { name: "Redux", img: "/assets/images/Skillicons/redux.png" },
+    { name: "Zustand", img: "/assets/images/Skillicons/zustand.png" },
+    { name: "Typescript", img: "/assets/images/Skillicons/typescript.png" },
+    { name: "Node Js", img: "/assets/images/Skillicons/node-js.png" },
+    { name: "Express Js", img: "/assets/images/Skillicons/express.png" },
+    { name: "MongoDB", img: "/assets/images/Skillicons/mongodb.png" },
+  ];
   return (
     <section className="about" id="about">
       <h1 className="heading">
@@ -9,7 +27,7 @@ const About = () => {
 
       <div className="row-1">
         <div className="image">
-          <img src="/assets/images/about-img.png" alt="Emon" />
+          <img src="/assets/images/home-pic.png" alt="Emon" />
         </div>
 
         <div className="content">
@@ -64,56 +82,13 @@ const About = () => {
       </h1>
 
       <div className="row-2">
-        {/* <div className="skills">
-          <div className="progress">
-            <h3>
-              web design <span> 95% </span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
-          </div>
-          <div className="progress">
-            <h3>
-              Responsive Design <span> 90% </span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
-          </div>
-          <div className="progress">
-            <h3>
-              Front End Development <span> 85% </span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
-          </div>
-          <div className="progress">
-            <h3>
-              Web Development <span> 80% </span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
-          </div>
-        </div> */}
         <div className="skills">
-          <div>HTML</div>
-          <div>CSS</div>
-          <div>SCSS</div>
-          <div>Javascript</div>
-          <div>Bootstrap</div>
-          <div>Tailwind</div>
-          <div>Daisy UI</div>
-          <div>React Js</div>
-          <div>Next Js</div>
-          <div>Firebase</div>
-          <div>Redux/Zustand</div>
-          <div>Typescript</div>
-          <div>Node Js</div>
-          <div>Express Js</div>
-          <div>MongoDB</div>
+          {skills.map((skill, i) => (
+            <div>
+              <img width={40} src={skill.img} alt={skill.name} />
+              <span>{skill.name}</span>
+            </div>
+          ))}
         </div>
 
         {/* <div className="box-container">
