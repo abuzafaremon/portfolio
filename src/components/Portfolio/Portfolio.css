@@ -78,8 +78,8 @@
 
 .modal .close {
   position: absolute;
-  right: 5px;
-  top: 5px;
+  right: 0px;
+  top: 0px;
   background: #fff;
   border-radius: 100%;
   width: 25px;
