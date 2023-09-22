@@ -170,7 +170,7 @@ const Portfolio = () => {
         "Express Js",
         "MongoDB",
       ],
-      liveLink: "https://bistro-boss-aze.web.app/login",
+      liveLink: "https://bistro-boss-aze.vercel.app",
       githubClient: "https://github.com/abuzafaremon/bistro-boss-client",
       thumb: "/assets/images/portfolio/bistro-boss-thumb.PNG",
     },
