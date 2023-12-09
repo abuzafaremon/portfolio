@@ -135,7 +135,7 @@ const Portfolio = () => {
     },
     {
       id: 10,
-      title: "Lets Make",
+      title: "BlogX",
       description: [
         "This is a Mobile Responsive blog website ",
         "Authentication is required for creating a new blog. Authentication using firebase",
@@ -149,8 +149,8 @@ const Portfolio = () => {
         "Firebase",
         "Firestore",
       ],
-      liveLink: "https://blog-letsmake.web.app/",
-      githubClient: "https://github.com/abuzafaremon/blog-letsmake",
+      liveLink: "https://blog-app-emon.web.app/",
+      githubClient: "https://github.com/abuzafaremon/blog-app-react",
       thumb: "/assets/images/portfolio/blogx.PNG",
     },
     {
@@ -158,8 +158,11 @@ const Portfolio = () => {
       title: "Bistro Boss",
       description: [
         "This is a Restaurant website",
+        "User can order food",
+        "Make payment ",
+        "Give feedback",
+        "Manage user dashboard",
         "Fully responsive for all devices",
-        "Other features is under development",
       ],
       technology: [
         "React Js",
@@ -172,9 +175,11 @@ const Portfolio = () => {
       ],
       liveLink: "https://bistro-boss-aze.vercel.app",
       githubClient: "https://github.com/abuzafaremon/bistro-boss-client",
+      githubServer: "https://github.com/abuzafaremon/bistro-boss-server",
       thumb: "/assets/images/portfolio/bistro-boss-thumb.PNG",
     },
   ];
+
   const handleModalShow = (id) => {
     setIsModalShow(true);
     const modalData = portfolios.find((item) => item.id === id);
@@ -211,6 +216,7 @@ const Portfolio = () => {
                   <span></span>
                 </a>
                 <a
+                  href
                   onClick={() => handleModalShow(id)}
                   className="fas fa-share"
                   title="Details"

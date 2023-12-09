@@ -27,9 +27,9 @@ const Hero = () => {
         </a>
       </div>
 
-      <div className="image">
-        <img src="/assets/images/hero-img.png" alt="home-img" />
-      </div>
+      {/* <div className="image">
+        <img src="/assets/images/home-pic.jpeg" alt="home-img" />
+      </div> */}
     </section>
   );
 };

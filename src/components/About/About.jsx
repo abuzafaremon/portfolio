@@ -41,22 +41,16 @@ const About = () => {
           <div className="box-container">
             <div className="box">
               <p>
-                <span> country : </span> Bangladesh
-              </p>
-              <p>
-                <span> Language : </span> Bengali, English, Hindi
-              </p>
-              <p>
-                <span> phone : </span>
-                <a href="tel:+8801707894381">01707894381</a>
-              </p>
-            </div>
-            <div className="box">
-              <p>
                 <span> Work : </span> Front-End Developer
               </p>
               <p>
                 <span> Freelance : </span> Available
+              </p>
+            </div>
+            <div className="box">
+              <p>
+                <span> phone : </span>
+                <a href="tel:+8801707894381">01707894381</a>
               </p>
               <p>
                 <span> Email : </span>

@@ -56,9 +56,9 @@ function App() {
       <Header isNavShow={isNavShow} />
       <Hero />
       <About />
-      <Service />
-      <Experience />
       <Portfolio />
+      <Experience />
+      <Service />
       <Contact />
       <Footer />
     </div>
